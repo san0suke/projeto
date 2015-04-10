@@ -5,23 +5,28 @@
 	<meta name="format-detection" content="telephone=no" />
 	<meta name="msapplication-tap-highlight" content="no" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<script src="js/constants.js"></script>
+	<script src="library/jquery/jquery-1.11.2.min.js"></script>
+	<script src="library/jquery/jquery.cookie.js"></script>
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/login.css" />
-	<script src="library/jquery/jquery-1.11.2.min.js"></script>
-	<title>Login - Favor entre com seu login e senha</title>
+	<script src="js/index.js"></script>
+	<title>Painel de Login - Por favor entre com seu login e senha</title>
 </head>
 <body>
     <div class="container">
 
-      <form class="form-signin">
-        <h2 class="form-signin-heading">Painel de Login 4</h2>
+      <form id="form-signin" class="form-signin">
+        <input type="hidden" name="a" value="login" />
+        <input type="hidden" name="b" value="login" />
+        <h2 class="form-signin-heading">Painel de Login</h2>
         <label for="inputEmail" class="sr-only">Login</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Login" required autofocus name="login">
+        <input type="text" id="login" class="form-control" placeholder="Login" required autofocus name="login">
         <label for="inputPassword" class="sr-only">Senha</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required name="senha">
+        <input type="password" id="senha" class="form-control" placeholder="Senha" required name="senha">
         <div class="checkbox">
           <label>
-            <input type="checkbox" value="lembrar-me" name="lembrar"> Lembrar-me
+            <input id="lembrar" type="checkbox" value="lembrar-me" name="lembrar"> Lembrar-me
           </label>
         </div>
         <button class="btn btn-primary" type="submit">Entrar</button>

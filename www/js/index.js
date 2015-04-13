@@ -1,4 +1,5 @@
 $(function() {
+	alert(window.localStorage.getItem("token"));
 	$("#form-signin").submit(function(e){
 		
 		var txtLogin = $("#login").val();

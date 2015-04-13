@@ -1,5 +1,4 @@
 $(function() {
-	alert(window.localStorage.getItem("token"));
 	if(window.localStorage.getItem("token") != null) {
 		document.location = "painel.html";
 	}

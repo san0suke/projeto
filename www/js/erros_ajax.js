@@ -15,8 +15,8 @@ function erro_verificacao(retorno) {
 	if(retorno.erro != undefined) {
 		alert(getMensagemErro(retorno.erro));
 		if(retorno.erro == 3) {
+			window.localStorage.removeItem("token");
 			document.location = 'index.html';
-			$.removeCookie("token");
 		}
 		return false;
 	}

@@ -4,14 +4,11 @@
 	<script src="library/jquery/jquery-1.11.2.min.js"></script>
 	<script src="js/default_head.js"></script>
 	<link rel="stylesheet" href="css/login.css" />
-	<script src="library/jquery/jquery.cookie.js"></script>
 	<script src="js/index.js"></script>
 	<title>Painel de Login - Por favor entre com seu login e senha</title>
 </head>
 <body>
-	<div id="ajax_loader_background">
-		<div id="loading_div"><img src="img/ajaxload.gif" title="Carregando..." alt="Carregando..."/></div>
-	</div>
+	
     <div class="container">
 
       <form id="form-signin" class="form-signin">
@@ -24,7 +21,7 @@
         <input type="password" id="senha" class="form-control" placeholder="Senha" required name="senha">
         <div class="checkbox">
           <label>
-            <input id="lembrar" type="checkbox" value="lembrar-me" name="lembrar"> Lembrar-me
+            <input id="lembrar" type="checkbox" value="lembrar-me" name="lembrar" checked> Lembrar-me
           </label>
         </div>
         <button class="btn btn-primary" type="submit">Entrar</button>

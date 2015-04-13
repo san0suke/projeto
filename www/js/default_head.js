@@ -5,7 +5,6 @@ $('head').append('<meta name="msapplication-tap-highlight" content="no" />');
 $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />');
 $('head').append('<script src="js/add_ajax_load_div.js" ></script>');
 $('head').append('<script src="js/constants.js" ></script>');
-$('head').append('<script src="library/jquery/jquery.cookie.js"></script>');
 $('head').append('<script src="assets/js/bootstrap.min.js"></script>');
 $('head').append('<script src="assets/js/jquery.metisMenu.js"></script>');
 $('head').append('<script src="assets/js/morris/raphael-2.1.0.min.js"></script>');

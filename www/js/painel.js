@@ -1,3 +1,3 @@
 $(function(){
-	$("#titulo").text($.cookie('token'));
+	$("#titulo").text(window.localStorage.getItem("token"));
 });

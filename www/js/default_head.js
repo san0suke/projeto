@@ -9,3 +9,4 @@ $('head').append('<link href="assets/css/bootstrap.css" rel="stylesheet" />');
 $('head').append('<script src="library/jquery/jquery.cookie.js"></script>');
 $('head').append('<script src="js/ajax_load.js" ></script>');
 $('head').append('<script src="js/add_input_token.js" ></script>');
+$('head').append('<script src="js/erros_ajax.js" ></script>');

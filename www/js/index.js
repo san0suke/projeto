@@ -4,9 +4,6 @@ $(function() {
 		var txtLogin = $("#login").val();
 		
 		$.post(ajax, $("#form-signin").serialize(), function(retorno){
-			alert(retorno.autorizado);
-			alert(retorno.erro);
-			alert(retorno.token);
 			if(retorno.autorizado) {
 				if($("#lembrar").is(':checked')) {
 					$.cookie('token', retorno.token, { expires: 30 });

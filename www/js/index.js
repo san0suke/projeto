@@ -1,4 +1,6 @@
 $(function() {
+	define_titulo(txt.login_titulo);
+	
 	if(window.localStorage.getItem("token") != null) {
 		document.location = "painel.html";
 	}

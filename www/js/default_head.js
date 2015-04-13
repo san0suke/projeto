@@ -3,6 +3,8 @@ $('head').append('<meta charset="iso-8859-1" />');
 $('head').append('<meta name="format-detection" content="telephone=no" />');
 $('head').append('<meta name="msapplication-tap-highlight" content="no" />');
 $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />');
+$('head').append('<script src="js/functions.js" ></script>');
+$('head').append('<script src="js/language.js" ></script>');
 $('head').append('<script src="js/add_ajax_load_div.js" ></script>');
 $('head').append('<script src="js/constants.js" ></script>');
 $('head').append('<script src="assets/js/bootstrap.min.js"></script>');

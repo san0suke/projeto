@@ -1,5 +1,4 @@
 $(function() {
-	alert($.cookie('token'));
 	$("#form-signin").submit(function(e){
 		
 		var txtLogin = $("#login").val();

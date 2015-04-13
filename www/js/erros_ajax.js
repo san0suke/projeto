@@ -16,6 +16,7 @@ function erro_verificacao(retorno) {
 		alert(getMensagemErro(retorno.erro));
 		if(retorno.erro == 3) {
 			document.location = 'index.html';
+			$.removeCookie("token");
 		}
 		return false;
 	}

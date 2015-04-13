@@ -10,7 +10,7 @@ $(function() {
 				} else {
 					$.cookie('token', retorno.token);
 				}
-				document.location = "painel.html";
+//				document.location = "painel.html";
 			} else {
 				alert("Login ou senha incorretos. Por favor tente novamente.");
 			}

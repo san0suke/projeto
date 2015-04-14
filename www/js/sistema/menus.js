@@ -11,6 +11,14 @@ function menu_topo_load(conteudo) {
 	$("#menu_topo_container").html(conteudo);
 	$("#logout_btn").append(txt.sair);
 }
+
+function collapse_menu() {
+	if ($(this).width() <= 768) {
+		$('div.sidebar-collapse').addClass('collapse')
+	} else {
+		$('div.sidebar-collapse').removeClass('collapse')
+	}
+}
 function menu_esquerda_load(conteudo) {
 	$("#menu_esquerda_container").html(conteudo);
 
@@ -18,12 +26,16 @@ function menu_esquerda_load(conteudo) {
 	 * MENU ------------------------------------
 	 */
 	$('#main-menu').metisMenu();
-
+	
+	collapse_menu();
+	
 	$(window).bind("load resize", function() {
-		if ($(this).width() < 768) {
-			$('div.sidebar-collapse').addClass('collapse')
-		} else {
-			$('div.sidebar-collapse').removeClass('collapse')
-		}
+		collapse_menu();
 	});
+	window.addEventListener(
+		    "orientationchange",
+		    function() {
+		    	 collapse_menu();
+		    	 alert("orientationchange");
+		    }, false );
 }

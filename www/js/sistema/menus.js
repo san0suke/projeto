@@ -32,10 +32,10 @@ function menu_esquerda_load(conteudo) {
 	$(window).bind("load resize", function() {
 		collapse_menu();
 	});
+	
 	window.addEventListener(
 		    "orientationchange",
 		    function() {
 		    	 collapse_menu();
-		    	 alert("orientationchange");
 		    }, false );
 }

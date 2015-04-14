@@ -1,13 +1,13 @@
 function getMensagemErro(codErro) {
 	var listaErros = new Array();
-	listaErros[1] = "Ocorreu um erro desconhecido";
-	listaErros[2] = "Ocorrem problemas durante a requisição ao servidor";
-	listaErros[3] = "Favor efetuar o login novamente, requisição não autorizada";
-	listaErros[4] = "Login ou senha incorretos. Por favor tente novamente";
+	listaErros[1] = txt.erro_desconhecido;
+	listaErros[2] = txt.problema_requisicao;
+	listaErros[3] = txt.requisicao_nao_autorizada;
+	listaErros[4] = txt.login_incorreto;
 	if(listaErros[codErro] != undefined) {
 		return listaErros[codErro];
 	} else {
-		return "Código do erro inválido";
+		return txt.codigo_invalido;
 	}
 }
 

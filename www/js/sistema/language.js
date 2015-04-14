@@ -8,4 +8,9 @@ var txt = {
 	painel : "Painel",
 	resumo_sistema : "Resumo do Sistema",
 	sair : "Sair",
+	erro_desconhecido : "Ocorreu um erro desconhecido",
+	problema_requisicao : "Ocorrem problemas durante a requisição ao servidor",
+	requisicao_nao_autorizada : "Favor efetuar o login novamente, requisição não autorizada",
+	login_incorreto : "Login ou senha incorretos. Por favor tente novamente",
+	codigo_invalido : "Código do erro inválido",
 };

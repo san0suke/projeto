@@ -1,6 +1,4 @@
-$(function(){
-	$("#logout_btn").click(function() {
-		window.localStorage.removeItem("token");
-		document.location = "index.html";
-	});
-});
+function logout() {
+	window.localStorage.removeItem("token");
+	document.location = "index.html";
+}

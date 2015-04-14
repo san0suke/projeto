@@ -8,7 +8,6 @@ $('head').append('<script src="js/sistema/language.js" ></script>');
 $('head').append('<script src="js/sistema/menus.js" ></script>');
 $('head').append('<script src="js/sistema/add_ajax_load_div.js" ></script>');
 $('head').append('<script src="js/sistema/constants.js" ></script>');
-$('head').append('<script src="assets/js/jquery.metisMenu.js"></script>');
 $('head').append('<script src="assets/js/morris/raphael-2.1.0.min.js"></script>');
 $('head').append('<script src="assets/js/morris/morris.js"></script>');
 $('head').append('<link href="assets/css/bootstrap.css" rel="stylesheet" />');
@@ -22,4 +21,5 @@ $('head').append('<script src="js/sistema/logout.js" ></script>');
 
 $(function() {
 	$('head').append('<script src="assets/js/bootstrap.min.js"></script>');
+	$('head').append('<script src="assets/js/jquery.metisMenu.js"></script>');
 });

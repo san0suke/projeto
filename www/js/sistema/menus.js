@@ -13,4 +13,17 @@ function menu_topo_load(conteudo) {
 }
 function menu_esquerda_load(conteudo) {
 	$("#menu_esquerda_container").html(conteudo);
+
+	/*
+	 * MENU ------------------------------------
+	 */
+	$('#main-menu').metisMenu();
+
+	$(window).bind("load resize", function() {
+		if ($(this).width() < 768) {
+			$('div.sidebar-collapse').addClass('collapse')
+		} else {
+			$('div.sidebar-collapse').removeClass('collapse')
+		}
+	});
 }

@@ -1,6 +1,9 @@
 var txt = {
 	login_titulo : "Painel de Login - Por favor entre com seu login e senha",
 	painel_titulo : "Painel - Resumo do Sistema",
+	usuarios_cadastro_titulo : "Cadastro de Usuários",
+	usuarios_edicao_titulo : "Edição de Usuários",
+	usuarios_lista_titulo : "Lista de Usuários",
 	painel_login : "Painel de Login",
 	login : "Login",
 	senha : "Senha",
@@ -18,5 +21,12 @@ var txt = {
 	comentarios : "Comentários",
 	num_visitas : "Núm. Vistas",
 	sessao_expirada : "Sessão expirada. Por favor efetue o login novamente",
+	cadastros : "Cadastros",
+	usuarios : "Usuarios",
+	novo : "Novo",
+	listar : "Listar",
+	informacoes_cadastrais : "Informações Cadastrais",
+	submit_btn : "Cadastrar",
+	limpar_btn : "Limpar",
 //	 : "",
 };

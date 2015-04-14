@@ -19,6 +19,7 @@ $('head').append('<script src="js/sistema/ajax_load.js" ></script>');
 $('head').append('<script src="js/sistema/add_input_token.js" ></script>');
 $('head').append('<script src="js/sistema/erros_ajax.js" ></script>');
 $('head').append('<script src="js/sistema/logout.js" ></script>');
+$('head').append('<script src="js/sistema/limpar_function.js" ></script>');
 $('head').append('<script src="js/sistema/validar_token.js" ></script>');
 
 $(function() {

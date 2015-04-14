@@ -35,4 +35,13 @@ function menu_esquerda_load(conteudo) {
 		    function() {
 		    	 collapse_menu();
 		    }, false );
+	
+	adicionar_traducao();
+}
+
+function adicionar_traducao() {
+	$("#cadastros_btn").append(txt.cadastros);
+	$("#usuarios_btn").append(txt.usuarios);
+	$(".novo_btn").append(txt.novo);
+	$(".listar_btn").append(txt.listar);
 }

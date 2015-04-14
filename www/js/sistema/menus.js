@@ -22,9 +22,6 @@ function collapse_menu() {
 function menu_esquerda_load(conteudo) {
 	$("#menu_esquerda_container").html(conteudo);
 
-	/*
-	 * MENU ------------------------------------
-	 */
 	$('#main-menu').metisMenu();
 	
 	collapse_menu();

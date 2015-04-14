@@ -9,6 +9,7 @@ body {
 	background: rgba(0,0,0, 0.4);
 	
 	display: none;
+	z-index: 9999;
 }
 #loading_div {
 	margin: 0 auto;

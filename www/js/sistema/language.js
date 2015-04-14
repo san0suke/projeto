@@ -13,4 +13,10 @@ var txt = {
 	requisicao_nao_autorizada : "Favor efetuar o login novamente, requisição não autorizada",
 	login_incorreto : "Login ou senha incorretos. Por favor tente novamente",
 	codigo_invalido : "Código do erro inválido",
+	visitas_diarias : "Visitas Diárias",
+	vendas : "Vendas",
+	comentarios : "Comentários",
+	num_visitas : "Núm. Vistas",
+	sessao_expirada : "Sessão expirada. Por favor efetue o login novamente",
+//	 : "",
 };

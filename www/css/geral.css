@@ -34,3 +34,6 @@ body {
 	-moz-border-radius: 130px;
 	border-radius: 130px;
 }
+.clear {
+	clear: both;
+}

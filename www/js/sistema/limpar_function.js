@@ -1,6 +1,10 @@
 $(function() {
 	$("button[type=reset]").click(function() {
-		$("input[type=text]").val("");
-		$("input[type=password]").val("");
+		limpar_form();
 	});
 });
+
+function limpar_form() {
+	$("input[type=text]").val("");
+	$("input[type=password]").val("");
+}

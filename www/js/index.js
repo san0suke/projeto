@@ -5,6 +5,7 @@ $(function() {
 		document.location = "painel.html";
 	}
 	$("#form-signin").submit(function(e){
+		e.preventDefault();
 		
 		var txtLogin = $("#login").val();
 		
@@ -14,6 +15,5 @@ $(function() {
 				document.location = "painel.html";
 			}
 		}, "json");
-		e.preventDefault();
 	});
 });

@@ -32,7 +32,7 @@
 							</div>
 							<div class="panel-body">
 								<div class="row">
-									<form id="form" role="form" data-toggle="validator"  >
+									<form id="form" class="validator" >
 										<input type="hidden" name="a" value="usuarios" />
 										<input type="hidden" name="b" value="cadastro" />
 										<div class="col-lg-6">
@@ -53,7 +53,7 @@
 											<div class="form-group">
 												<label id="lbl_confirmar_senha" for="confirm_usu_senha">
 													<script>text(txt.confirmar_senha)</script></label> <input id="confirm_usu_senha" type="password"
-													class="form-control" placeholder="**********"
+													class="form-control" placeholder="**********" equalTo="#usu_senha"
 													autocomplete="off"
 													data-match="#usu_senha" required />
     											<span class="help-block with-errors" ></span>

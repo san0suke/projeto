@@ -35,5 +35,6 @@ var txt = {
 	falha_cadastrar : "Falha ao cadastrar. Tente novamente mais tarde",
 	redigite_senha : "Redigite a senha acima",
 	confirmar_senha : "Confirmar senha",
+	redigitar_senha: "As senhas digitadas não conferem",
 //	 : "",
 };

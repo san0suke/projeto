@@ -23,7 +23,7 @@ $('head').append('<script src="js/sistema/logout.js" ></script>');
 $('head').append('<script src="js/sistema/limpar_function.js" ></script>');
 $('head').append('<script src="js/sistema/validar_token.js" ></script>');
 $('head').append('<script src="js/sistema/auto_languages.js" ></script>');
-$('head').append('<script src="library/validator/jquery.validate.js"></script>');
+$('head').append('<script src="library/validator/jquery.validate.min.js"></script>');
 $('head').append('<script src="library/validator/localization/messages_pt_BR.js"></script>');
 $('head').append('<script src="js/sistema/custom-validation.js" ></script>');
 

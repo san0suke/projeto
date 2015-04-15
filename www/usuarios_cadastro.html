@@ -39,7 +39,6 @@
 											<div class="form-group">
 												<label><script>text(txt.login)</script></label> <input type="text" class="form-control"
 													id="usu_login" name="usu_login" required/>
-    											<span class="help-block with-errors"></span>
 											</div>
 										</div>
 										<div class="col-lg-6">
@@ -48,15 +47,12 @@
 													id="usu_senha" autocomplete="off" type="password"
 													class="form-control" name="usu_senha"
 													placeholder="**********" required />
-    											<span class="help-block with-errors"></span>
 											</div>
 											<div class="form-group">
 												<label id="lbl_confirmar_senha" for="confirm_usu_senha">
 													<script>text(txt.confirmar_senha)</script></label> <input id="confirm_usu_senha" type="password"
 													class="form-control" placeholder="**********" equalTo="#usu_senha"
-													autocomplete="off"
-													data-match="#usu_senha" required />
-    											<span class="help-block with-errors" ></span>
+													autocomplete="off" required />
 											</div>
 											<button type="submit" class="btn btn-primary submit_btn"></button>
 											<button type="reset" class="btn btn-default limpar_btn"></button>

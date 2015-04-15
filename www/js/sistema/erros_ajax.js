@@ -4,10 +4,11 @@ function getMensagemErro(codErro) {
 	listaErros[2] = txt.problema_requisicao;
 	listaErros[3] = txt.requisicao_nao_autorizada;
 	listaErros[4] = txt.login_incorreto;
+	listaErros[5] = txt.login_ja_cadastrado;
 	if(listaErros[codErro] != undefined) {
 		return listaErros[codErro];
 	} else {
-		return txt.codigo_invalido;
+		return txt.codigo_invalido+": #"+codErro;
 	}
 }
 

@@ -21,6 +21,7 @@ $('head').append('<script src="js/sistema/erros_ajax.js" ></script>');
 $('head').append('<script src="js/sistema/logout.js" ></script>');
 $('head').append('<script src="js/sistema/limpar_function.js" ></script>');
 $('head').append('<script src="js/sistema/validar_token.js" ></script>');
+$('head').append('<script src="js/sistema/auto_languages.js" ></script>');
 
 $(function() {
 	$('head').append('<script src="assets/js/bootstrap.min.js"></script>');

@@ -28,5 +28,7 @@ var txt = {
 	informacoes_cadastrais : "Informações Cadastrais",
 	submit_btn : "Cadastrar",
 	limpar_btn : "Limpar",
+	cadastrado_sucesso : "Cadastro realizado com sucesso!",
+	login_ja_cadastrado : "Login já cadastrado. Por favor escolha outro",
 //	 : "",
 };
